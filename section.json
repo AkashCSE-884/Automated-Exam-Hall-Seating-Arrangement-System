@@ -1,0 +1,76 @@
+{
+    "ret_data": [
+        {
+            "section_id": 1,
+            "department_id": 1,
+            "dept_name": "CSE",
+            "name": "15 batch A"
+        },
+        {
+            "section_id": 2,
+            "department_id": 1,
+            "dept_name": "CSE",
+            "name": "15 batch B"
+        },
+        {
+            "section_id": 3,
+            "department_id": 1,
+            "dept_name": "CSE",
+            "name": "16 batch A"
+        },
+        {
+            "section_id": 4,
+            "department_id": 1,
+            "dept_name": "CSE",
+            "name": "16 batch B"
+        },
+        {
+            "section_id": 5,
+            "department_id": 2,
+            "dept_name": "EEE",
+            "name": "15 batch A"
+        },
+        {
+            "section_id": 6,
+            "department_id": 2,
+            "dept_name": "EEE",
+            "name": "15 batch B"
+        },
+        {
+            "section_id": 7,
+            "department_id": 2,
+            "dept_name": "EEE",
+            "name": "16 batch A"
+        },
+        {
+            "section_id": 8,
+            "department_id": 2,
+            "dept_name": "EEE",
+            "name": "16 batch B"
+        },
+        {
+            "section_id": 9,
+            "department_id": 3,
+            "dept_name": "English",
+            "name": "15 batch A"
+        },
+        {
+            "section_id": 10,
+            "department_id": 3,
+            "dept_name": "English",
+            "name": "15 batch B"
+        },
+        {
+            "section_id": 11,
+            "department_id": 3,
+            "dept_name": "English",
+            "name": "16 batch A"
+        },
+        {
+            "section_id": 12,
+            "department_id": 3,
+            "dept_name": "English",
+            "name": "16 batch B"
+        }
+    ]
+}

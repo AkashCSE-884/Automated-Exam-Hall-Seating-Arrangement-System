@@ -1,0 +1,16 @@
+{
+    "ret_data": [
+        {
+            "department_id": 1,
+            "name": "CSE"
+        },
+        {
+            "department_id": 2,
+            "name": "EEE"
+        },
+        {
+            "department_id": 3,
+            "name": "English"
+        }
+    ]
+}

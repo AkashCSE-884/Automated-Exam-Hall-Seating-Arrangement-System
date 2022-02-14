@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <ul id="contentul"></ul>
+
+    <script>
+        myFunction1()
+        async function myFunction1() {
+            var obj = {}
+            const req = await fetch('../../section.json');
+            let resReq = await req.json();
+            let data = resReq.ret_data;
+            // console.log(data);
+
+
+
+            let frm = new FormData();
+            frm.append("testPerform", "hello");
+            let testData = await fetch("../process/dataProcess.php", {
+                method: "POST",
+                body: frm
+            });
+            let res = await testData.json();
+            let html = "";
+
+
+            for (let i = 0; i < data.length; i++) {
+                html += `<h1>${data[i].dept_name} <br>${data[i].name}</h1>`
+                obj[`${data[i].dept_name}-${data[i].name}`] = [];
+                // xi  = []
+                // console.log(xi)
+                res.map(el => {
+
+                    if (el.batch_id == (i + 1)) {
+                        obj[`${data[i].dept_name}-${data[i].name}`].push(el)
+                        html += `<li>${el.user_name}</li>`
+                    }
+
+                })
+
+                html += `<h2></h2>`
+
+            }
+            //console.log(obj)
+            contentul.innerHTML = html;
+
+
+            assignStudent = {}
+            let room = []
+            room2 = []
+            m = 0
+            let frm2 = new FormData();
+            frm2.append("testPerformRoom", "hello2");
+            let testDataT = await fetch("../process/dataProcess.php", {
+                method: "POST",
+                body: frm2
+            });
+            let resT = await testDataT.json();
+            // console.log(Object.keys(obj).length)
+            let c = 0
+
+            resT.forEach((item, index) => {
+                room[index] = []
+                console.log(item.title, "------------------------------")
+                Object.values(obj).forEach((element, count) => {
+                    let z = 0;
+                    element.forEach((list, flag) => {
+                        
+                        if (item.seat_capacity > flag ) {
+                            // console.log()
+                            //room[index].push(Object.values(obj)[count][flag])
+                        }
+                    })
+                    //console.log(z)
+                    //room[index].append(Object.values(obj)[count])
+                })
+                room2.push(room[index]);
+                console.log(item.seat_capacity)
+            })
+            
+            //console.log(room2)
+            //console.log(assignStudent)
+
+            //         if(resT[j].seat_capacity <= room[j].length){
+            //             console.log("ok");
+            //             break;
+            //         }else{
+            //             for(l = 0; l < Object.values(obj)[0].length; l++){
+            //                 if(resT[j].seat_capacity == room[j].length){
+
+            //                     console.log("ok");
+            //                     break;
+            //                 }
+            //                 room[j].push(Object.values(obj)[k][l])
+            //             }
+
+            //             //console.log(Object.values(obj)[0].length)
+            //         }
+            //         //console.log(Object.values(obj)[0])
+            //        // console.log(Object.values(obj)[0][0])
+            //     }
+            // }
+            //console.log(room)
+            // console.log(room2)
+            // for(let j=0; j<resT.length; j++){
+            //     room[j] = []
+            //     for(k=0; k<Object.keys(obj).length; k++){
+            // for(let j=0; j<resT.length; j++){
+            //     room[j] = []
+            //     for(k=0; k<Object.keys(obj)[j].length; k++){
+            //         if(resT[j].seat_capacity>k){
+
+            //             room[j].push(Object.values(obj)[j][k])
+
+            //             //console.log(Object.values(obj)[j][k])  
+            //         }
+            //     }
+            //     assignStudent.push(room[j])
+
+            //     //console.log(Object.values(obj)[j].length)
+
+            // }
+
+            // console.log(assignStudent)
+
+
+        }
+    </script>
+</body>
+
+</html>

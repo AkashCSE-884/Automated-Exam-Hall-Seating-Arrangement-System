@@ -1,0 +1,220 @@
+{
+    "ret_data": [
+        {
+            "id": 4,
+            "department_id": 1,
+            "section_id": 1,
+            "name": "Database Management System"
+        },
+        {
+            "id": 5,
+            "department_id": 1,
+            "section_id": 1,
+            "name": "Simulation & modeling"
+        },
+        {
+            "id": 6,
+            "department_id": 1,
+            "section_id": 1,
+            "name": "Simulation & modeling sessional"
+        },
+        {
+            "id": 7,
+            "department_id": 1,
+            "section_id": 2,
+            "name": "Database Management System"
+        },
+        {
+            "id": 8,
+            "department_id": 1,
+            "section_id": 2,
+            "name": "Simulation & modeling"
+        },
+        {
+            "id": 9,
+            "department_id": 1,
+            "section_id": 2,
+            "name": "Simulation & modeling sessional"
+        },
+        {
+            "id": 10,
+            "department_id": 1,
+            "section_id": 3,
+            "name": "Computer Networks"
+        },
+        {
+            "id": 11,
+            "department_id": 1,
+            "section_id": 3,
+            "name": "Computer Networks Sessional"
+        },
+        {
+            "id": 12,
+            "department_id": 1,
+            "section_id": 3,
+            "name": "Computer Graphics"
+        },
+        {
+            "id": 13,
+            "department_id": 1,
+            "section_id": 4,
+            "name": "Computer Networks"
+        },
+        {
+            "id": 14,
+            "department_id": 1,
+            "section_id": 4,
+            "name": "Computer Networks Sessional"
+        },
+        {
+            "id": 15,
+            "department_id": 1,
+            "section_id": 4,
+            "name": "Computer Graphics"
+        },
+        {
+            "id": 16,
+            "department_id": 2,
+            "section_id": 5,
+            "name": "Optoelectronic devices"
+        },
+        {
+            "id": 17,
+            "department_id": 2,
+            "section_id": 5,
+            "name": "Modern control systems"
+        },
+        {
+            "id": 18,
+            "department_id": 2,
+            "section_id": 5,
+            "name": "Modern control systems sessaionl"
+        },
+        {
+            "id": 19,
+            "department_id": 2,
+            "section_id": 6,
+            "name": "Optoelectronic devices"
+        },
+        {
+            "id": 20,
+            "department_id": 2,
+            "section_id": 6,
+            "name": "Modern control systems"
+        },
+        {
+            "id": 21,
+            "department_id": 2,
+            "section_id": 6,
+            "name": "Modern control systems sessaionl"
+        },
+        {
+            "id": 22,
+            "department_id": 2,
+            "section_id": 7,
+            "name": "ELECTRICAL CIRCUITS 2"
+        },
+        {
+            "id": 23,
+            "department_id": 2,
+            "section_id": 7,
+            "name": "ANALOG ELECTRONICS"
+        },
+        {
+            "id": 24,
+            "department_id": 2,
+            "section_id": 7,
+            "name": "Engineering management"
+        },
+        {
+            "id": 25,
+            "department_id": 2,
+            "section_id": 8,
+            "name": "ELECTRICAL CIRCUITS 2"
+        },
+        {
+            "id": 26,
+            "department_id": 2,
+            "section_id": 8,
+            "name": "ANALOG ELECTRONICS"
+        },
+        {
+            "id": 27,
+            "department_id": 2,
+            "section_id": 8,
+            "name": "Engineering management"
+        },
+        {
+            "id": 28,
+            "department_id": 3,
+            "section_id": 9,
+            "name": "Old and middle english"
+        },
+        {
+            "id": 29,
+            "department_id": 3,
+            "section_id": 9,
+            "name": "Classics in translation"
+        },
+        {
+            "id": 30,
+            "department_id": 3,
+            "section_id": 9,
+            "name": "Cultural studies"
+        },
+        {
+            "id": 31,
+            "department_id": 3,
+            "section_id": 10,
+            "name": "Old and middle english"
+        },
+        {
+            "id": 32,
+            "department_id": 3,
+            "section_id": 10,
+            "name": "Classics in translation"
+        },
+        {
+            "id": 33,
+            "department_id": 3,
+            "section_id": "10",
+            "name": "Cultural studies"
+        },
+        {
+            "id": 34,
+            "department_id": 3,
+            "section_id": "11",
+            "name": "Modern poetry"
+        },
+        {
+            "id": 35,
+            "department_id": 3,
+            "section_id": "11",
+            "name": "Modern drama"
+        },
+        {
+            "id": 36,
+            "department_id": 3,
+            "section_id": "11",
+            "name": "Modern English"
+        },
+        {
+            "id": 37,
+            "department_id": 3,
+            "section_id": "12",
+            "name": "Modern poetry"
+        },
+        {
+            "id": 38,
+            "department_id": 3,
+            "section_id": "12",
+            "name": "Modern drama"
+        },
+        {
+            "id": 39,
+            "department_id": 3,
+            "section_id": "12",
+            "name": "Modern English"
+        }
+    ]
+}
